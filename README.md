@@ -10,15 +10,14 @@ Authors: *Hang Guo, Tao Dai, Mingyan Zhu, GuangHao Meng, Bin Chen, Zhi Wang, Shu
 
 This work focus on the problem of text recognition on the low-resolution. A novel knowledge distillation framework is proposed, which can directly adapt the text recognizer to low-resolution. We hope that our work can inspire more studies on one-stage low-resolution text recognition.
 
-![image-20230730095434441](C:\Users\郭航\AppData\Roaming\Typora\typora-user-images\image-20230730095434441.png)
-
+![motivation](https://github.com/csguoh/KD-LTR/blob/master/assets/motivation.png)
 
 ## Pipeline
 The architecture of the proposed framework is as follows.
 
 
 
-![image-20230730095345453](C:\Users\郭航\AppData\Roaming\Typora\typora-user-images\image-20230730095345453.png)
+![model](https://github.com/csguoh/KD-LTR/blob/master/assets/model.png)
 
 
 
@@ -64,15 +63,15 @@ python main.py --go_test
 
 ### Quantitative Comparison
 
-![image-20230730095511775](C:\Users\郭航\AppData\Roaming\Typora\typora-user-images\image-20230730095511775.png)
+![quantitative](https://github.com/csguoh/KD-LTR/blob/master/assets/quantitative.png)
 
 ### Qualitative Comparison
 
-![image-20230730095526767](C:\Users\郭航\AppData\Roaming\Typora\typora-user-images\image-20230730095526767.png)
+![qualitative](https://github.com/csguoh/KD-LTR/blob/master/assets/qualitative.png)
 
 ### Robustness Comparison
 
-![image-20230730095547636](C:\Users\郭航\AppData\Roaming\Typora\typora-user-images\image-20230730095547636.png)
+![robustness](https://github.com/csguoh/KD-LTR/blob/master/assets/robustness.png)
 
 ## Citation
 
