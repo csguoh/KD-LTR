@@ -2,6 +2,8 @@
 
 # KD-STR
 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2308.02770.pdf)
+
 An official Pytorch implement of the paper "One-stage Low-resolution Text Recognition with High-resolution Knowledge Transfer" (MM2023).
 
 Authors: *Hang Guo, Tao Dai, Mingyan Zhu, GuangHao Meng, Bin Chen, Zhi Wang, Shu-Tao Xia*.
@@ -10,7 +12,7 @@ Authors: *Hang Guo, Tao Dai, Mingyan Zhu, GuangHao Meng, Bin Chen, Zhi Wang, Shu
 
 This work focus on the problem of text recognition on the low-resolution. A novel knowledge distillation framework is proposed, which can directly adapt the text recognizer to low-resolution. We hope that our work can inspire more studies on one-stage low-resolution text recognition.
 
-![motivation](https://github.com/csguoh/KD-LTR/blob/master/assets/motivation.png)
+<p align="center"> <img src="https://github.com/csguoh/KD-LTR/blob/master/assets/motivation.png" width="55%"> </p>
 
 ## Pipeline
 The architecture of the proposed framework is as follows.
@@ -67,16 +69,25 @@ python main.py --go_test
 
 ### Qualitative Comparison
 
-![qualitative](https://github.com/csguoh/KD-LTR/blob/master/assets/qualitative.png)
+<p align="center"> <img src="https://github.com/csguoh/KD-LTR/blob/master/assets/qualitative.png" width="60%"> </p>
+
 
 ### Robustness Comparison
 
-![robustness](https://github.com/csguoh/KD-LTR/blob/master/assets/robustness.png)
+<p align="center"> <img src="https://github.com/csguoh/KD-LTR/blob/master/assets/robustness.png" width="75%"> </p>
+
 
 ## Citation
 
 If you find our work helpful, please consider citing us.
 
 ```
-
+@misc{guo2023onestage,
+      title={One-stage Low-resolution Text Recognition with High-resolution Knowledge Transfer}, 
+      author={Hang Guo and Tao Dai and Mingyan Zhu and Guanghao Meng and Bin Chen and Zhi Wang and Shu-Tao Xia},
+      year={2023},
+      eprint={2308.02770},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
