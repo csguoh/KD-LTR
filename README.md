@@ -82,12 +82,11 @@ python main.py --go_test
 If you find our work helpful, please consider citing us.
 
 ```
-@misc{guo2023onestage,
-      title={One-stage Low-resolution Text Recognition with High-resolution Knowledge Transfer}, 
-      author={Hang Guo and Tao Dai and Mingyan Zhu and Guanghao Meng and Bin Chen and Zhi Wang and Shu-Tao Xia},
-      year={2023},
-      eprint={2308.02770},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{guo2023one,
+  title={One-stage Low-resolution Text Recognition with High-resolution Knowledge Transfer},
+  author={Guo, Hang and Dai, Tao and Zhu, Mingyan and Meng, Guanghao and Chen, Bin and Wang, Zhi and Xia, Shu-Tao},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={2189--2198},
+  year={2023}
 }
 ```
